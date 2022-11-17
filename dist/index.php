@@ -144,7 +144,7 @@
       <label for="card-ccv">CCV</label>
       <input type="text" id="card-ccv" maxlength="3" />
     </fieldset>
-    <button class="btn"><i class="fa fa-lock"></i> Enviar</button>
+    <button class="btn" id="terminar"><i class="fa fa-lock"></i> Enviar</button>
   </form>
 </div>
 
@@ -152,9 +152,10 @@
 <a class="the-most" target="_blank" href="https://paypal.me/EsenciaNatural342?country.x=MX&locale.x=es_XC">
   <img src="paypal.png"width = "300" height="150">
   </a>
-  
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src="../js/transaccion.js" ></script>
+
 
 </body>
 </div>
